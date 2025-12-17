@@ -131,7 +131,7 @@ function App() {
     <div className="min-h-screen bg-white flex items-center justify-center p-4 font-sans text-gray-800">
       <div className="w-full max-w-lg">
         <h1 className="text-2xl font-semibold mb-6 text-gray-800">
-          Task Tracker ijul sange
+          Task Tracker selfie botak by ijul ganteng
         </h1>
 
         <div className="relative mb-8">
