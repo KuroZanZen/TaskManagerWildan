@@ -1,24 +1,34 @@
-# Task Tracker
+# Wildan Apps
 
-A simple and elegant Task Tracker application built with React, Vite, and Tailwind CSS.
+A multi-functional React application featuring a Task Tracker, Calculator, and Temperature Converter. Built with React, Vite, and Tailwind CSS.
 
 ## Features
 
+### 1. Task Tracker
+
 - **Add Tasks**: Easily add new tasks to your list.
 - **Track Progress**: Mark tasks as complete or incomplete.
-- **Smart Sorting**: Completed tasks are automatically moved to the bottom of the list with a strikethrough style, keeping your pending tasks in focus.
-- **Delete Tasks**: Remove tasks you no longer need.
-- **Responsive Design**: Looks great on all devices.
+- **Smart Sorting**: Completed tasks are automatically moved to the bottom with a strikethrough style.
+- **Delete Tasks**: Remove unwanted tasks.
+
+### 2. Calculator
+
+- **Basic Arithmetic**: Perform addition, subtraction, multiplication, and division.
+- **Clean UI**: Simple and responsive design.
+
+### 3. Temperature Converter
+
+- **Two-way Conversion**: Convert between Celsius and Fahrenheit instantly.
+- **Real-time Updates**: Type in one field and see the result in the other.
 
 ## Technologies Used
 
-- [React](https://react.dev/) - A JavaScript library for building user interfaces.
-- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling.
-- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
+- [React](https://react.dev/) - UI Library
+- [Vite](https://vitejs.dev/) - Build Tool
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [React Router](https://reactrouter.com/) - Navigation
 
 ## Getting Started
-
-Follow these steps to get the project up and running on your local machine.
 
 ### Prerequisites
 
@@ -31,11 +41,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 
    ```bash
    npm install
-   ```
-
-   or if you use pnpm:
-
-   ```bash
+   # or
    pnpm install
    ```
 
@@ -45,24 +51,28 @@ Start the development server:
 
 ```bash
 npm run dev
+# or
+pnpm run dev
 ```
 
-Open your browser and navigate to the URL shown in the terminal (usually `http://localhost:5173`).
+Open your browser and navigate to `http://localhost:5173`.
 
-### Building for Production
+### Navigation
+
+The app now includes a navigation header to easily switch between tools:
+
+- **Task Manager**: The home page.
+- **Calculator**: Access via the header link.
+- **Temperature Converter**: Access via the header link.
+
+## Building for Production
 
 To create a production build:
 
 ```bash
 npm run build
+# or
+pnpm run build
 ```
 
 The build artifacts will be stored in the `dist/` directory.
-
-### Previewing Production Build
-
-To preview the production build locally:
-
-```bash
-npm run preview
-```
