@@ -18,8 +18,10 @@ A multi-functional React application featuring a Task Tracker, Calculator, and T
 
 ### 3. Temperature Converter
 
-- **Two-way Conversion**: Convert between Celsius and Fahrenheit instantly.
-- **Real-time Updates**: Type in one field and see the result in the other.
+- **Multi-Unit Support**: Convert between **Celsius (°C)**, **Fahrenheit (°F)**, **Kelvin (K)**, and **Reamur (°R)**.
+- **Smart Dropdowns**: Select your "From" and "To" units easily.
+- **Real-time Updates**: Results update instantly as you type.
+- **Swap Feature**: Quickly swap input and output units with a single click.
 
 ## Technologies Used
 
@@ -59,11 +61,13 @@ Open your browser and navigate to `http://localhost:5173`.
 
 ### Navigation
 
-The app now includes a navigation header to easily switch between tools:
+The app features a unified **Menu Dropdown** in the header:
 
-- **Task Manager**: The home page.
-- **Calculator**: Access via the header link.
-- **Temperature Converter**: Access via the header link.
+1. Click the **Menu** button in the top right.
+2. Select your desired tool:
+   - **Task Manager**: Organize your daily tasks.
+   - **Calculator**: Perform quick calculations.
+   - **Temperature Converter**: Convert temperature units.
 
 ## Building for Production
 
